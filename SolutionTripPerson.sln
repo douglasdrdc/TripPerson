@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPerson.Web", "TripPerson.Web\TripPerson.Web.csproj", "{61AD6EC3-C60E-42F1-9AB8-973CF2B1E417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO.Swagger", "IO.Swagger\IO.Swagger.csproj", "{03B1CD76-1687-4A33-896C-F6FB9C4BA503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AD6EC3-C60E-42F1-9AB8-973CF2B1E417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AD6EC3-C60E-42F1-9AB8-973CF2B1E417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AD6EC3-C60E-42F1-9AB8-973CF2B1E417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AD6EC3-C60E-42F1-9AB8-973CF2B1E417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B1CD76-1687-4A33-896C-F6FB9C4BA503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B1CD76-1687-4A33-896C-F6FB9C4BA503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B1CD76-1687-4A33-896C-F6FB9C4BA503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B1CD76-1687-4A33-896C-F6FB9C4BA503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
