@@ -38,3 +38,7 @@ D:\ProjetosGit\TripPerson\TripPerson.Web\bin\Newtonsoft.Json.xml
 D:\ProjetosGit\TripPerson\TripPerson.Web\obj\Debug\TripPerson.Web.csprojResolveAssemblyReference.cache
 D:\ProjetosGit\TripPerson\TripPerson.Web\obj\Debug\TripPerson.Web.dll
 D:\ProjetosGit\TripPerson\TripPerson.Web\obj\Debug\TripPerson.Web.pdb
+D:\ProjetosGit\TripPerson\TripPerson.Web\bin\IO.Swagger.dll
+D:\ProjetosGit\TripPerson\TripPerson.Web\bin\RestSharp.dll
+D:\ProjetosGit\TripPerson\TripPerson.Web\bin\IO.Swagger.pdb
+D:\ProjetosGit\TripPerson\TripPerson.Web\bin\RestSharp.xml
