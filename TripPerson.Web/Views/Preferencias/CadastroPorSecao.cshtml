@@ -4,101 +4,96 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
 <h2>Escolha o que combina mais com você!</h2>
 
 <br />
 <br />
 
-<div id="secoes" class="row">
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/gastronomia/restaurante1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Restaurante</p>
-        </div>
-    </div>
-
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/artes/museu2.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Artes</p>
-        </div>
-    </div>
-
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/festas/festas1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Festas</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/musicas/musica6.jpg" class="img-fluid " sizes="200" alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Músicas</p>
-        </div>
-    </div>
-</div>
-
-<br />
-<br />
-
-<div id="secoes" class="row">
-
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/bebidas/bebidas12.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Bedidas</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/animais/cachorro1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Viagem com pet</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/compras/compras1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Compras</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/culturas/cultura1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Cultura</p>
-        </div>
-    </div>
-
-</div>
-
-<br />
-<br />
-
-<div id="secoes" class="row">
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/esportes/futebol6.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Esportes</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/negocios/negocios1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Negócios</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/naturezas/naturezas1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Natureza</p>
-        </div>
-    </div>
-    <div class="view overlay hm-grey-strong col-md-3">
-        <img src="~/img/preferencias/fitness/fitness1.jpg" class="img-fluid " alt="">
-        <div class="mask flex-center">
-            <p class="white-text">Fitness</p>
-        </div>
-    </div>
-
+<div class="container">
+    <ul>
+        <li>
+            <input type="checkbox" id="cb1" />
+            <label for="cb1" class="labelEscolha text-center">
+                <img src="~/img/preferencias/gastronomia/restaurante1.jpg" class="img-fluid " alt="">
+                <br />
+                Restaurante
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb2" />
+            <label for="cb2" class="labelEscolha text-center">
+                <img src="~/img/preferencias/artes/museu2.jpg" class="img-fluid " alt="">
+                <br />
+                Artes
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb3" />
+            <label for="cb3" class="labelEscolha text-center">
+                <img src="~/img/preferencias/festas/festas1.jpg" class="img-fluid " alt="">
+                <br />
+                Festas
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb4" />
+            <label for="cb4" class="labelEscolha text-center">
+                <img src="~/img/preferencias/musicas/musica6.jpg" class="img-fluid " sizes="200" alt="">
+                <br />
+                Músicas
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb5" />
+            <label for="cb5" class="labelEscolha text-center">
+                <img src="~/img/preferencias/compras/compras1.jpg" class="img-fluid " alt="">
+                <br />
+                Compras
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb6" />
+            <label for="cb6" class="labelEscolha text-center">
+                <img src="~/img/preferencias/culturas/cultura1.jpg" class="img-fluid " alt="">
+                <br />
+                Cultura
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb7" />
+            <label for="cb7" class="labelEscolha text-center">
+                <img src="~/img/preferencias/esportes/futebol6.jpg" class="img-fluid " alt="">
+                <br />
+                Esportes
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb8" />
+            <label for="cb8" class="labelEscolha text-center">
+                <img src="~/img/preferencias/negocios/negocios1.jpg" class="img-fluid " alt="">
+                <br />
+                Negócios
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb9" />
+            <label for="cb9" class="labelEscolha text-center">
+                <img src="~/img/preferencias/naturezas/naturezas1.jpg" class="img-fluid " alt="">
+                <br />
+                Natureza
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="cb10" />
+            <label for="cb10" class="labelEscolha text-center">
+                <img src="~/img/preferencias/fitness/fitness1.jpg" class="img-fluid " alt="">
+                <br />
+                Fitness
+            </label>
+        </li>
+        
+    </ul>
 </div>
 
 <br />
