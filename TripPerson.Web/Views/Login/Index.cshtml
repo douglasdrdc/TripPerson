@@ -4,5 +4,108 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Login</h2>
 
+<div class="container">
+
+    <!-- Heading Row -->
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-responsive" src="~/img/figura1.jpg" alt="">
+        </div>
+
+        <div class="col-md-4">
+            <form>
+                <h2 class="form-signin-heading">Viaje Agora</h2>
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
+                <br />
+                <label for="inputPassword" class="sr-only">Senha</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Lembre-me
+                    </label>
+                    <label>
+                        <a href="#">Esqueci minha senha</a><br>
+                        <a href="cadastro.html">cadastre-se</a><br>
+                    </label>
+                </div>
+                
+                <a href="@Url.Action("CadastroPorSecao", "Preferencias")" class="btn btn-lg btn-primary btn-block btn-viajar">
+                    <span>Viajar</span>
+                </a>
+
+
+                <br>
+                <div>
+                    <a class="btn btn-block btn-social btn-instagram" href="@Url.Action("CadastroPorSecao", "Preferencias")" >
+                        <span class="fa fa-instagram"></span> Login com Instragram
+                    </a>
+                    <a class="btn btn-block btn-social btn-facebook" href="@Url.Action("CadastroPorSecao", "Preferencias")" >
+                        <span class="fa fa-facebook"></span> Login com Facebook
+                    </a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    
+
+    
+    <br />
+    <div class="panel panel-default titulo1" >
+        <div class="panel-body">
+
+            <div class="text-center">
+                <p class="text-white m-0">SUA VIAGEM DE UMA FORMA PERSONALIZADA E INESQUECIVEL!</p>
+            </div>
+            
+        </div>
+    </div>
+
+    @*<!-- Content Row -->
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Tranquilidade e Conforto</h2>
+                    <img class="img-fluid rounded" src="~/img/figura2.jpg" alt="">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Passagens Aéreas</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Lazer completo</h2>
+                    <img class="img-fluid rounded" src="~/img/figura3.jpg" alt="">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Lazer</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Seu Cruzeiro é Aqui</h2>
+                    <img class="img-fluid rounded" src="~/img/figura4.jpg" alt="">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Cruzeiros</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.row -->*@
+
+</div>

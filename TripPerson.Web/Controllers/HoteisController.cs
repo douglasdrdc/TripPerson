@@ -10,6 +10,11 @@ namespace TripPerson.Web.Controllers
 {
     public class HoteisController : Controller
     {
+        public ActionResult FiltroPesquisa()
+        {            
+            return View();
+        }
+
         // GET: Hoteis
         public ActionResult Pesquisa()
         {

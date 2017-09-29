@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "FiltroPesquisa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+
+    <!-- Pesquisa de Hoteis -->
+    <div class="col-sm-3 sidenav">
+        <div>
+
+            <div class="col-sm-12 sidenav text-left" style="background-color: #f5f5f5; ">
+                <form>
+                    <div class="form-group col-xs-12 col-md-12 ">
+                        <br />
+                        
+                        <div class="form-group col-xs-12 col-md-12">
+                            <label>Destino</label>
+                            <input type="text" class="form-control " style="margin-bottom: 5px;" placeholder="São Paulo">
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-6 col-md-6">
+                                <label>Datas</label>
+                                <input type="text" class="form-control" placeholder="20 out 2017">
+                            </div>
+                            <div class="form-group col-xs-6 col-md-6">
+                                <label>3 noites</label>
+                                <input type="text" class="form-control" placeholder="24 out 2017">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group col-xs-12 col-md-12">
+                            <input type="checkbox"><span>  Não defini as datas</span>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-6 col-md-6">
+                                <label>Quartos</label>
+                                <input type="text" class="form-control" placeholder="1">
+                            </div>
+                            <div class="form-group col-xs-6 col-md-6">
+                                <label>Crianças</label>
+                                <input type="text" class="form-control" placeholder="0">
+                            </div>
+                        </div>                        
+
+                        <div>
+                            <a href="@Url.Action("Pesquisa", "Hoteis")" class="btn btn-lg btn-primary btn-block btn-viajar">
+                                <span>Pesquisar</span>
+                            </a>
+                        </div>
+                        
+
+                    </div>
+                </form>
+                <br />
+                
+            </div>
+
+            <br />
+
+            <div class="col-sm-12 sidenav text-left">
+                
+                    <img src="~/img/Map.png" class="img-responsive" />
+                
+            </div>
+
+        </div>        
+    </div>
+
+    <!-- Lista de Hoteis -->
+    <div class="col-sm-8 text-left">
+        <h3>Bem-Vindo</h3>
+        <p>Hotel Tour, é a primeira agência de turismo que oferece pra você uma busca de hoteis personalizada de acordo o suas preferencias de musicas, esportes, lazer, e muito mais... Tudo para que você possa ter a melhor experiência em sua viagem.</p>
+        <hr>
+        
+    </div>
+
+</div>

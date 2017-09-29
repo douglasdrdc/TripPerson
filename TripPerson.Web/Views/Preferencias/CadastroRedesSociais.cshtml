@@ -4,5 +4,53 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Cadastro Redes Sociais do Viajante</h2>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form>
+            <h2 class="form-signin-heading">Para uma melhor experiência vincule suas redes sociais!</h2>
+            
+            <br>
+            <div>
+                <a class="btn btn-block btn-social btn-instagram" href="@Url.Action("FiltroPesquisa", "Hoteis")">
+                    <span class="fa fa-instagram"></span> Vincular com Instragram
+                </a>
+                <a class="btn btn-block btn-social btn-facebook" href="@Url.Action("FiltroPesquisa", "Hoteis")">
+                    <span class="fa fa-facebook"></span> Vincular com Facebook
+                </a>
+                <a class="btn btn-block btn-social btn-google" href="@Url.Action("FiltroPesquisa", "Hoteis")">
+                    <span class="fa fa-google"></span> Vincular com Google
+                </a>
+                <a class="btn btn-block btn-social btn-pinterest" href="@Url.Action("FiltroPesquisa", "Hoteis")">
+                    <span class="fa fa-pinterest"></span> Vincular com Pinterest
+                </a>
+            </div>
+        </form>
+
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+
+<br />
+<br />
+
+<div class="col-lg-12">
+    <div class="col-lg-4">
+
+        <a href="@Url.Action("FiltroPesquisa", "Hoteis")" class="btn btn-lg btn-primary btn-block btn-viajar">
+            <span>Pular</span>
+        </a>
+
+    </div>
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4">
+        <a href="@Url.Action("FiltroPesquisa", "Hoteis")" class="btn btn-lg btn-primary btn-block btn-viajar">
+            <span>Avançar</span>
+        </a>
+
+    </div>
+
+</div>
 

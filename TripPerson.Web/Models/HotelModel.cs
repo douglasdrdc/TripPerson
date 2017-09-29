@@ -17,6 +17,7 @@ namespace TripPerson.Web.Models
         public int Awards { get; set; }
 
         public string Image { get; set; }
+        public string SecaoPreferencia { get; set; }
     }
 
     public class LocationHotelModel
@@ -38,6 +39,7 @@ namespace TripPerson.Web.Models
         public double? amount { get; set; }
         public string currency { get; set; }
     }
+
 
     
 

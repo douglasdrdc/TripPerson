@@ -52,20 +52,40 @@ body {
 	color: #2ace50;
 }
 .musica{
-	background-image: url("figura13.jpg")!important;
+    background-image: url('../../../img/figura13.jpg') !important;
 	color: #ffffff;
 }
 .lazer{
-	background-image: url("figura14.jpg")!important;
+    background-image: url('../../../img/figura14.jpg') !important;
 	color: #ffffff;
 }
-.gastronomia{
-	background-color: url("figura15.jpg")!important;
-	color: #ffffff;
+.gastronomia {
+    background-image: url('../../../img/figura15.jpg') !important;
+    color: #ffffff;
 }
+.mouse{
+	cursor: pointer;
+}
+.alinhamento{
+	margin-left: %;
+}
+.alinhamento2{
+	float: right;
+}
+.fechar{
+	font-size: 73px;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    border: 0;
+    background-color: rgba(204, 204, 204, 0);
+}
+
+
 
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
+
 }

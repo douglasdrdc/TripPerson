@@ -20,7 +20,7 @@ namespace TripPerson.Web.Service
             int? radius = 20;
             string checkIn = "2017-11-01";
             string checkOut = "2017-11-02";
-            int? numberOfResults = 10;
+            int? numberOfResults = 3;
             string currency = "BRL";
             
             try
@@ -54,6 +54,9 @@ namespace TripPerson.Web.Service
                 HotelModel hotel = null;
 
                 int countImg = 1;
+                int countSecao = 0;
+                List<string> secoes = new List<string>() { "Música", "Gastronomia", "Lazer" };
+
                 foreach (var itemHotel in result.results)
                 {
                     hotel = new HotelModel();
@@ -81,6 +84,9 @@ namespace TripPerson.Web.Service
 
                     hotel.Image = string.Format("~/img/hotel{0}.jpg", countImg);
                     countImg++;
+
+                    hotel.SecaoPreferencia = secoes[countSecao];
+                    countSecao = countSecao == 2 ? 0 : countSecao + 1;
 
                     hotelCollection.Add(hotel);
                 }
